@@ -1,5 +1,5 @@
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o: \
-  /Users/rasat1/Documents/Code/dependencies/glad/src/glad.c \
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o: \
+  /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/src/glad.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -92,7 +92,7 @@ CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o: 
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/glad/include/glad/glad.h \
-  /Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/glad/include/KHR/khrplatform.h \
+  /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/include/glad/glad.h \
+  /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/include/KHR/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/dlfcn.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdbool.h

@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator
+CMAKE_SOURCE_DIR = /Users/rasat1/Documents/code/CHIP-8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator/build
+CMAKE_BINARY_DIR = /Users/rasat1/Documents/code/CHIP-8/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/Chip-8.dir/clean
 CMakeFiles/GLAD.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=3,4 "Built target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=3,4 "Built target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GLAD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GLAD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles 0
 .PHONY : CMakeFiles/GLAD.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ GLAD: CMakeFiles/GLAD.dir/rule
 # codegen rule for target.
 CMakeFiles/GLAD.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=3,4 "Finished codegen for target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=3,4 "Finished codegen for target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/GLAD.dir/clean:
 CMakeFiles/Chip-8.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=1,2 "Built target Chip-8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=1,2 "Built target Chip-8"
 .PHONY : CMakeFiles/Chip-8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Chip-8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Chip-8.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles 0
 .PHONY : CMakeFiles/Chip-8.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ Chip-8: CMakeFiles/Chip-8.dir/rule
 # codegen rule for target.
 CMakeFiles/Chip-8.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Chip-8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Chip-8"
 .PHONY : CMakeFiles/Chip-8.dir/codegen
 
 # clean rule for target.

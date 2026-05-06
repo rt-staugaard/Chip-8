@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator
+CMAKE_SOURCE_DIR = /Users/rasat1/Documents/code/CHIP-8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator/build
+CMAKE_BINARY_DIR = /Users/rasat1/Documents/code/CHIP-8/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GLAD.dir/depend.make
@@ -72,31 +72,31 @@ include CMakeFiles/GLAD.dir/flags.make
 CMakeFiles/GLAD.dir/codegen:
 .PHONY : CMakeFiles/GLAD.dir/codegen
 
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o: CMakeFiles/GLAD.dir/flags.make
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o: /Users/rasat1/Documents/Code/dependencies/glad/src/glad.c
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o: CMakeFiles/GLAD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o -MF CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o.d -o CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o -c /Users/rasat1/Documents/Code/dependencies/glad/src/glad.c
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o: CMakeFiles/GLAD.dir/flags.make
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o: /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/src/glad.c
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o: CMakeFiles/GLAD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o -MF CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o.d -o CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o -c /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/src/glad.c
 
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rasat1/Documents/Code/dependencies/glad/src/glad.c > CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/src/glad.c > CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.i
 
-CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rasat1/Documents/Code/dependencies/glad/src/glad.c -o CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s
+CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/rasat1/Documents/code/CHIP-8/dependencies/glad/src/glad.c -o CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.s
 
 # Object files for target GLAD
 GLAD_OBJECTS = \
-"CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o"
+"CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o"
 
 # External object files for target GLAD
 GLAD_EXTERNAL_OBJECTS =
 
-libGLAD.a: CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o
+libGLAD.a: CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o
 libGLAD.a: CMakeFiles/GLAD.dir/build.make
 libGLAD.a: CMakeFiles/GLAD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLAD.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLAD.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GLAD.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GLAD.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/GLAD.dir/clean:
 .PHONY : CMakeFiles/GLAD.dir/clean
 
 CMakeFiles/GLAD.dir/depend:
-	cd /Users/rasat1/Documents/Code/hobby_projects/Emulator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rasat1/Documents/Code/hobby_projects/Emulator /Users/rasat1/Documents/Code/hobby_projects/Emulator /Users/rasat1/Documents/Code/hobby_projects/Emulator/build /Users/rasat1/Documents/Code/hobby_projects/Emulator/build /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles/GLAD.dir/DependInfo.cmake "--color=$(COLOR)" GLAD
+	cd /Users/rasat1/Documents/code/CHIP-8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rasat1/Documents/code/CHIP-8 /Users/rasat1/Documents/code/CHIP-8 /Users/rasat1/Documents/code/CHIP-8/build /Users/rasat1/Documents/code/CHIP-8/build /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles/GLAD.dir/DependInfo.cmake "--color=$(COLOR)" GLAD
 .PHONY : CMakeFiles/GLAD.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/shader -I/Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/glm -I/Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/glad/include -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/rasat1/Documents/code/CHIP-8/dependencies/shader -I/Users/rasat1/Documents/code/CHIP-8/dependencies/glm -I/Users/rasat1/Documents/code/CHIP-8/dependencies/glad/include -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 

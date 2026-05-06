@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/rasat1/Documents/Code/hobby_projects/Emulator/../../dependencies/glad/include
+C_INCLUDES = -I/Users/rasat1/Documents/code/CHIP-8/dependencies/glad/include
 
 C_FLAGSarm64 =  -arch arm64
 

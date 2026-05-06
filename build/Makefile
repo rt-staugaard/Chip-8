@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator
+CMAKE_SOURCE_DIR = /Users/rasat1/Documents/code/CHIP-8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rasat1/Documents/Code/hobby_projects/Emulator/build
+CMAKE_BINARY_DIR = /Users/rasat1/Documents/code/CHIP-8/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles /Users/rasat1/Documents/Code/hobby_projects/Emulator/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles /Users/rasat1/Documents/code/CHIP-8/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/Code/hobby_projects/Emulator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rasat1/Documents/code/CHIP-8/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,53 +142,53 @@ Chip-8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/build
 .PHONY : Chip-8/fast
 
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.o: Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.o
+dependencies/glad/src/glad.o: dependencies/glad/src/glad.c.o
+.PHONY : dependencies/glad/src/glad.o
 
 # target to build an object file
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.o
+dependencies/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.o
+.PHONY : dependencies/glad/src/glad.c.o
 
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.i: Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.i
+dependencies/glad/src/glad.i: dependencies/glad/src/glad.c.i
+.PHONY : dependencies/glad/src/glad.i
 
 # target to preprocess a source file
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.i
+dependencies/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.i
+.PHONY : dependencies/glad/src/glad.c.i
 
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.s: Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.s
+dependencies/glad/src/glad.s: dependencies/glad/src/glad.c.s
+.PHONY : dependencies/glad/src/glad.s
 
 # target to generate assembly for a file
-Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s
-.PHONY : Users/rasat1/Documents/Code/dependencies/glad/src/glad.c.s
+dependencies/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/dependencies/glad/src/glad.c.s
+.PHONY : dependencies/glad/src/glad.c.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chip-8.dir/build.make CMakeFiles/Chip-8.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -200,12 +200,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Chip-8"
 	@echo "... GLAD"
-	@echo "... Users/rasat1/Documents/Code/dependencies/glad/src/glad.o"
-	@echo "... Users/rasat1/Documents/Code/dependencies/glad/src/glad.i"
-	@echo "... Users/rasat1/Documents/Code/dependencies/glad/src/glad.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... dependencies/glad/src/glad.o"
+	@echo "... dependencies/glad/src/glad.i"
+	@echo "... dependencies/glad/src/glad.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
